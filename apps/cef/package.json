@@ -1,7 +1,22 @@
 {
   "name": "@v-rp/cef",
-  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
   "devDependencies": {
-    "@v-rp/tsconfig": "workspace:^"
+    "@nuxt/devtools": "latest",
+    "@ragempcommunity/types-cef": "^2.1.5",
+    "nuxt": "^3.8.0",
+    "vue": "^3.3.7",
+    "vue-router": "^4.2.5"
+  },
+  "dependencies": {
+    "@nuxtjs/tailwindcss": "^6.9.4"
   }
 }

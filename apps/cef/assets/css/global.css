@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.login_bg {
+  height: 100vh;
+  background-image: url("../img/gta5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
